@@ -1,0 +1,24 @@
+programa
+{
+	real media1, media2, soma
+	
+	funcao inicio ()
+	{
+		escreva(" Digite a primeira media: ")
+		leia(media1)
+		escreva(" Digite a primeira media: ")
+		leia(media2)
+		
+		soma = (media1+media2)/2
+		
+		se(soma >= 5.0)
+		{
+			escreva(" Parabens Bobão ")
+		}
+		senao 
+		{
+			escreva(" Perdeu Bobão ")
+		}
+		
+	}
+}

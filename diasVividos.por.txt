@@ -1,0 +1,21 @@
+programa
+{
+	inteiro anos, meses , dias , totalEmDias
+	funcao inicio ()
+	{
+		escreva("digite os anos ")
+		leia(anos)
+		escreva("meses ")
+		leia(meses)
+		escreva("dias ")
+		leia(dias)
+		totalEmDias = (anos*365)+(meses*30)+dias
+		escreva("o total em dia é : ", totalEmDias)
+		
+		
+		
+		
+		
+		
+	}
+}
